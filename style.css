@@ -1,0 +1,276 @@
+* {
+    font-family: oswald;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+}
+
+.tudo{
+    width: 50rem;
+    height: 48rem;
+
+    margin: auto;
+
+    background: gray;
+}
+
+.titulo{
+    color: white;
+
+    text-shadow: 5px 5px 3px black;
+
+    font-size: 2.5rem;
+
+    text-align: center;
+}
+
+.valores{
+    color: white;
+    
+    text-shadow: 5px 5px 3px black;
+
+    font-size: 2rem;
+
+    width: 45rem;
+
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.valores p{
+    margin-bottom: 2rem;
+    
+    text-align: center;
+}
+
+input, button{
+    outline: none;
+}
+
+input{
+    font-size: 2rem;
+    
+    width: 40rem;
+
+    text-align: center;
+}
+
+.all-botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+
+    width: 30rem;
+}
+
+button{
+    font-size: 2rem;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: all ease-in-out .4s;
+
+    border: none;
+}
+
+button:hover{
+    background: rgb(119, 114, 114);
+    color: white;
+}
+
+#botao_calcular{
+    width: 10rem;
+    height: 6rem;
+}
+
+#botao_limpar{
+    width: 15rem;
+    height: 6rem;
+}
+
+::-webkit-input-placeholder {
+    color: var(--cor-txt);
+}
+
+:-moz-placeholder {
+    color: var(--cor-txt);
+}
+
+::-moz-placeholder {
+    color: var(--cor-txt);
+}
+
+:-ms-input-placeholder {
+    color: var(--cor-txt);
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+#res{
+    font-size: 2rem;
+
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+
+    width: 45rem;
+    
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    color: white;
+}
+
+@media(max-width: 1100px){
+    .tudo{
+        width: 40rem;
+        height: 40rem;
+
+        transition: all ease-out 0.5s;
+    }
+
+    .titulo{
+        font-size: 1.5rem;
+    }
+
+    .valores{
+        width: 40rem;
+        
+        font-size: 1.5rem;
+
+        margin-bottom: 2rem;
+
+        margin: auto;
+    }
+
+    .valores p{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 28rem;
+
+        margin: auto;
+        margin-top: 2rem;
+
+    }
+
+    input{
+        width: 15rem;
+
+        font-size: 1.5rem;
+    }
+
+    .all-botoes{
+        display: block;
+        
+        height: 12rem;
+
+        font-size: 1.5rem;
+
+        text-align: center;
+    }
+
+    #botao_calcular, #botao_limpar{
+        width: 25rem;
+        height: 4rem;
+
+        margin-top: 2rem;
+    }
+
+    #res{
+        width: 35rem;
+    }
+}
+
+@media(max-width: 660px){
+    .tudo{
+        width: 35rem;
+        height: 35rem;
+
+        transition: all ease-out 0.5s;
+    }
+
+    .titulo{
+        font-size: 1.5rem;
+    }
+
+    .valores{
+        width: 35rem;
+        
+        font-size: 1.5rem;
+
+        margin-bottom: 2rem;
+
+        margin: auto;
+    }
+
+    .valores p{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 23rem;
+
+        margin: auto;
+        margin-top: 2rem;
+
+    }
+
+    input{
+        width: 10rem;
+
+        font-size: 1.5rem;
+    }
+
+    .all-botoes{
+        display: block;
+        
+        height: 12rem;
+
+        font-size: 1.5rem;
+
+        text-align: center;
+    }
+
+    #botao_calcular, #botao_limpar{
+        width: 20rem;
+        height: 4rem;
+
+        margin-top: 2rem;
+    }
+
+    #res{
+        width: 30rem;
+    }
+}
