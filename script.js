@@ -50,6 +50,8 @@ function limpar() {
     let b = document.getElementById('i-valor-b')
     let c = document.getElementById('i-valor-c')
 
+    let p_res = document.getElementById('p-res')
+
     if (a.value == '' && b.value == '' && c.value == '') {
 
         alert('Não existe nenhum dado para limpar!')
@@ -59,6 +61,7 @@ function limpar() {
         a.value = ''
         b.value = ''
         c.value = ''
+        p_res.innerHTML = ''
 
     }
 
