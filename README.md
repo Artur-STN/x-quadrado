@@ -1,3 +1,3 @@
 # x-quadrado
 
-https://artur-stn.github.io/xquadrado/
+https://artur-stn.github.io/x-quadrado/
